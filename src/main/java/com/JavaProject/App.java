@@ -13,13 +13,13 @@ public class App
         System.out.println("Product of " + num1 + " and " + num2 + " is: " + product);
         System.out.println("Difference between " + num1 + " and " + num2 + " is: " + difference);
     }
-    public int multiplyNumbers( int numberOne, int numberTwo ) 
+    public static int multiplyNumbers( int numberOne, int numberTwo ) 
     {
    
        
     	return numberOne * numberTwo;
     }
-    public int subtractNumbers( int numberOne, int numberTwo )
+    public static int subtractNumbers( int numberOne, int numberTwo )
     {
         return numberOne - numberTwo;
     }
