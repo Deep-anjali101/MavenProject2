@@ -21,14 +21,14 @@ public class AppTest
     public void multiplyTest()
     {
        
-        assertEquals(50, myCalc.multiplyNumbers(10, 5));
+        assertEquals(50, App.multiplyNumbers(10, 5));
     }
 
    @Test
     public void subtractTest()
     {
       
-        assertEquals(5, myCalc.subtractNumbers(10, 5)); // Changing the parameter here to change functionality
+        assertEquals(5, App.subtractNumbers(10, 5)); // Changing the parameter here to change functionality
     }
 }
 
