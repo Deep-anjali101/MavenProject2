@@ -18,8 +18,11 @@ pipeline {
         }
 
         stage('Consolidate Results'){
-            junit '**/target/surefire-reports/Test-*.xml'
-            archive 'target/*.jar'
+             steps {
+                junit '**/target/surefire-reports/Test-*.xml'
+                 archive 'target/*.jar'
+            }
+           
         }
     }
 }
