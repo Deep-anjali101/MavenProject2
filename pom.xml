@@ -16,7 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.token>sqa_9fdebf23f1810a5cdae844067a9dbd579b23eaf9</sonar.token>
+    <sonar.token>sqa_541c72e5a744ff312c1a8d1b5969f44c64b5134d</sonar.token>
 
   </properties>
 
